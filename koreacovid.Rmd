@@ -43,23 +43,14 @@ Examining the table, it seems as though more men have died in this study as comp
 ```{r}
 dd2 <- kRdata %>% group_by(result,Sex) %>% summarize(count=n()) %>% mutate(prcnt=count/sum(count))
 
-
-# the group_by followed by summarize(count=n())
-
 basicC <- ggplot(dd2,aes(x=result,y=count,fill=Sex))
 basicC + geom_bar(stat="identity",position="dodge")
-
-#Now for percentage plot
 
 basicCC <- ggplot(dd2,aes(x=result,y=prcnt*100,fill=Sex)) 
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
-  
-
-
-
-
+When considering the frequency-based ggplot bar chart computed, it appears that there are about 1800 living females in the study, and around 1400 living males. However, more male persons were reported as dead than females, while there were a couple hundred more females in the study sample as a whole. According to the bar char, the majority of the reported deaths were indicated as male. Further tests are required, perferablly with a numerical test. 
 
   
 ## Numerical results
