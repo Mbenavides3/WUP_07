@@ -36,6 +36,8 @@ with(kRdata, table(Sex, result))
 
 ```
 
+Examining the table, it seems as though more men have died in this study as compared to females (44 males compared to 25 females). Additionally, there seems to be more females in the sample of the study (1831) compared to males in the sample (1411); this would suggest that a higher proportion of men died in this study compared to the women in this study, but further testing is required to confirm whether this difference in proportion is statistically significant. 
+
 ## We create two bar charts - one based on frequency and the other on percent, use ggplot commands to do this
 
 `
