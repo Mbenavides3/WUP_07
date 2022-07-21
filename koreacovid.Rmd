@@ -55,6 +55,11 @@ When considering the frequency-based ggplot bar chart computed, it appears that 
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
 
 ## Inferential results 
 
