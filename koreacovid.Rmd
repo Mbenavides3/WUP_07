@@ -65,7 +65,11 @@ The table on top shown examines the data in data in terms of the values of the r
 
 ## Inferential results 
 
-
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
 
 ## Conclusions
