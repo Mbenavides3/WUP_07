@@ -71,6 +71,8 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
+Running the chi-squared test lines up and confirmed the results that we have had in the frequency chart and the numerical results chart. However, the clearest explanation of our results comes in the form of a Fisher Exact Test, which generated a p-value of .0009 for the COVID data from Korea. Additionally, the odds raio of 2.3 can be interpreted as the notion that males are 2.3 times more likely to die from COVID. 
 
 ## Conclusions
+
 
