@@ -61,6 +61,8 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
+The table on top shown examines the data in data in terms of the values of the result.  It seems that a solid majority of the people reported "dead" as a result were sixty-four percent of the men. In analyzing the bottom table, which was created based on gender, a higher proportion of men (three percent) were reported dead, as compared to only 1.4 percent of females who have died. However, inferential results are still required.
+
 ## Inferential results 
 
 
