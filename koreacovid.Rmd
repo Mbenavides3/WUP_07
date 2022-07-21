@@ -75,4 +75,4 @@ Running the chi-squared test lines up and confirmed the results that we have had
 
 ## Conclusions
 
-
+In summary, this assignment explained and demonstrated whether or not death by COVID was independent of sex of the sample of people from Korea. We explained this with graphical, numerical, and inferential results. The proportion based bar-chart demonstrated a variation in percentage among those who died, in favor of men. Then, the numerical results provided the exact percentages to further secure the claim. Finally, the inferential results provided the exact counts of the prior test for deaths in relation to sex and also gave a low p-value. All the tests and graphs help to push the claim that the results did not solely occur by chance. 
